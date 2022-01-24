@@ -8,8 +8,9 @@ Escreva a função `float manhattan_dist(Point, Point)` que retorna a distância
 Para comparação, escreva também a função `float euclidean_dist(Point, Point)`.
 
 ## Potenciais limitações
-- A classe Point é imutável
+- A classe Point é imutável.
 - A classe Point não tem getters e nem setters.
+- As variáveis dentro da classe Point são privadas e não devem ser acessadas diretamente.
 
 ## Exemplos de testes
 - manhattan_dist(Point(1, 1), Point(1, 1)) retorna 0
@@ -20,5 +21,5 @@ Para comparação, escreva também a função `float euclidean_dist(Point, Point
 - euclidean_dist(Point(1, 1), Point(0, -3)) retorna 5.65
 
 ## Referências
-[Exercício original](https://codingdojo.org/kata/manhattan-distance/)
-[Facilitação de dojos](https://github.com/lula42/42Labs/blob/main/dojos.md)
+- [Exercício original](https://codingdojo.org/kata/manhattan-distance/)
+- [Facilitação de dojos](https://github.com/lula42/42Labs/blob/main/dojos.md)
