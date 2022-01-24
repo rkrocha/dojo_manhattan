@@ -15,10 +15,10 @@ Para comparação, escreva também a função `float euclidean_dist(Point, Point
 ## Exemplos de testes
 - manhattan_dist(Point(1, 1), Point(1, 1)) retorna 0
 - manhattan_dist(Point(5, 4), Point(3, 2)) retorna 4
-- manhattan_dist(Point(1, 1), Point(0, -3)) retorna 8
+- manhattan_dist(Point(1, 1), Point(0, -3)) retorna 5
 - euclidean_dist(Point(1, 1), Point(1, 1)) retorna 0
 - euclidean_dist(Point(5, 4), Point(3, 2)) retorna 2.82
-- euclidean_dist(Point(1, 1), Point(0, -3)) retorna 5.65
+- euclidean_dist(Point(1, 1), Point(0, -3)) retorna 4.12
 
 ## Referências
 - [Exercício original](https://codingdojo.org/kata/manhattan-distance/)
